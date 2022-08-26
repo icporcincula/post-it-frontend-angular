@@ -10,6 +10,7 @@ import { SignupComponent } from './signup/signup.component';
 import { MatIconModule } from '@angular/material/icon';
 import { ResetPasswordComponent } from './reset-password/reset-password.component';
 import { MatButtonModule } from '@angular/material/button';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { MatButtonModule } from '@angular/material/button';
     SigninComponent,
     SignupComponent,
     ResetPasswordComponent,
+    PageNotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, MatIconModule, MatButtonModule],
   providers: [],
