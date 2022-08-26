@@ -1,1 +1,51 @@
-<p>signin works!</p>
+<div class="container">
+  <div class="box">
+    <h1>Log In</h1>
+    <div class="user">
+      <mat-icon class="fas fa-user">account_box</mat-icon>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        autocomplete="off"
+        placeholder="username"
+      />
+      <mat-icon class="fas fa-unlock-all">lock</mat-icon>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        autocomplete="off"
+        placeholder="password"
+      />
+    </div>
+    <p
+      class="reset-password"
+      routerLink=""
+      routerLinkActive="active"
+      ariaCurrentWhenActive="page"
+    >
+      Forgot Password?
+    </p>
+    <div class="login-btn">
+      <button
+        mat-button
+        class="btn"
+        routerLink="/home"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page"
+      >
+        Login
+      </button>
+      <p class="signup">
+        First time here?
+        <span
+          routerLink="/signup"
+          routerLinkActive="active"
+          ariaCurrentWhenActive="page"
+          >Sign Up</span
+        >
+      </p>
+    </div>
+  </div>
+</div>
