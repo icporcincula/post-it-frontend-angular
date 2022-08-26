@@ -8,6 +8,7 @@ import { IndexComponent } from './index/index.component';
 import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
 import { MatIconModule } from '@angular/material/icon';
+import { ResetPasswordComponent } from './reset-password/reset-password.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +16,7 @@ import { MatIconModule } from '@angular/material/icon';
     IndexComponent,
     SigninComponent,
     SignupComponent,
+    ResetPasswordComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, MatIconModule],
   providers: [],
